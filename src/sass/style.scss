@@ -2,3 +2,16 @@
 @use "./base/reset";
 @use "./pages/home";
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --red-100: hsl(352 100% 20%);
+    --red-200: hsl(352 85% 32%);
+    --red-300: hsl(352 72% 50%);
+    --red-400: hsl(352 82% 70%);
+    --red-500: hsl(352 40% 90%);
+  }
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: var(--red-400);
+}
