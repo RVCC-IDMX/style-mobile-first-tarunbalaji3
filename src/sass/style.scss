@@ -13,5 +13,10 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    background: var(--red-400);
+    background: var(--red-500);
+    padding: 0 2em;
+    max-width: 48ch;
+    line-height: 1.6rem;
+    display: grid;
+    gap: 2rem;
 }
