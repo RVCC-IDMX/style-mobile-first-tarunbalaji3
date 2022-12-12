@@ -32,3 +32,17 @@ a {
 .skip-link:focus {
     opacity: 1;
 }
+
+h1, h2, h3 {
+    line-height: normal;
+}
+
+.container {
+    display: grid;
+    gap: 1.2rem;
+}
+
+article > section {
+    padding-block-start: 1.8rem;
+
+}
